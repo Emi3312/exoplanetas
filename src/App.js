@@ -1,6 +1,5 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Usa HashRouter
 import ExploradorIntergalactico from './components/menu';
 import AventuraEspacial from './components/AventuraEspacial';
 import CarruselExoplanetas from './components/CarruselExoplanetas'; 
